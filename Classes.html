@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Muswell Hill Ki Aikido</title>
+  <link rel="stylesheet" href="mhkiaikido.css">
+</head>
+
+<body>
+  <header>
+    <h1>Muswell Hill Ki Aikido Club</h1>
+    <nav>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="aboutKIAikido.html">About Ki Aikido</a></li>
+        <li><a href="aboutmark.html">About Sensei Mark Greenley</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="classes">
+    <div class="animate-text">First lesson free of charge<br>Sensei Mark Greenley 078403502146</div>
+    <div class="box">
+      <a class="button" href="#popup1">Your first lesson</a>
+      <a class="button" href="#popup2">Your next lessons</a>
+      <a class="button" href="#popup3">Grading</a>
+
+
+    </div>
+
+    <div id="popup1" class="overlay">
+      <div class="popup">
+        <h2>Wellcome to your first lesson</h2>
+        <h2>wear any loose, comfortable, and clean clothing.</h2>
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+          Your first Ki Aikido lesson will likely focus on basic concepts and movements to introduce you to the art. Ki
+          Aikido emphasizes harmony, relaxation, and the flow of energy ("Ki"), rather than brute strength. Here's what
+          you can expect: 1. Introduction to Ki Principles, 2. Posture and Movement, 3. Simple Techniques, 4. Respect
+          and Etiquette. It's a chance to learn the core ideas of Ki Aikido in a calm, supportive
+          environment.
+        </div>
+      </div>
+   </div>
+   <div id="popup2" class="overlay">
+    <div class="popup">
+      <h2>your journey learning the art of<br>KI Aikido</h2>
+      <a class="close" href="#">&times;</a>
+      <div class="content">
+        Congratulation, you are starting your journey of learning the art of Ki Aikido.
+        The Ki federation of Geat Britain has put in place a very well structured progression of KI exercises and Aikido techniques. 
+        You will start from the basic 1st technic (IKKIO)-1st forme to the 9th technic (KOTEGEASHI)-16th form.   
+
+      </div>
+    </div>
+ </div>
+ <div id="popup3" class="overlay">
+  <div class="popup">
+    <h2>Our Grading Progression</h2>
+    <a class="close" href="#">&times;</a>
+    <div class="content">
+      After +- 6 months of practice (once a week), when you and Sensei feel that you are ready <br>(it is NOT a competition) <br>you should passe your first grading.
+      <br>The Yellow belt:<br> -first KI exercises<br>-all techniques first from basic (from static position).<br>The YELLOW belt is the foundation of the rest of your journey.
+      <br>Orange
+      <br>Blue
+      <br>Green
+      <br>Brown
+      <br>Black
+    
+
+
+    </div>
+  </div>
+</div>
+
+      <h2>Classes times and Prices</h2>
+      <p>Tuesdays: 7-9pm, all levels £10.00 for 2 hours</p>
+      <p>Tuesdays: 9-10pm, Brown belt and Dan grades £10.00 for 2 hours</p>
+      <p>Thursdays: 8 to 10pm all levels</p>
+      <h2>Dojo:</h2>
+      <p>Hornsey Parish Church
+        Cranley Gardens
+        Muswell Hill
+        London
+        N10 3AH</p>
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1239.4979128073714!2d-0.13523689166436625!3d51.58663988638305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b006f30c3d3%3A0xee5d2eeef97c4578!2sMuswell%20hill%20Ki%20Aikido%20club!5e0!3m2!1sen!2suk!4v1728758425954!5m2!1sen!2suk"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade" div="center"></iframe>
+      </div>
+      <p>Parking Gratuit, Bus W7, W3, 144</p>
+      <p>
+        <a href="https://www.kifederationofgreatbritain.co.uk/">ki federation of great Britain</a>
+      </p>
+
+  </section>
+
+
+  <footer>
+    <p>&copy;2024 Muswell Hill Ki Aikido</p>
+  </footer>
+  <style>
+    .animate-text {
+      font-size: 2em;
+      color: yellow;
+      font-weight: bold;
+      position: relative;
+      animation: fadeIn 3s ease-in-out infinite;
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+
+      50% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      100% {
+        opacity: 0;
+        transform: translateY(-30px);
+      }
+
+    }
+
+    .button {
+      font-size: 1em;
+      padding: 10px;
+      color: white;
+      border: 2px solid yellow;
+      border-radius: 20px/50px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.3s ease-out;
+    }
+
+    .button:hover {
+      background: yellow;
+      color: red;
+    }
+
+    .overlay {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.7);
+      transition: opacity 500ms;
+      visibility: hidden;
+      opacity: 0;
+    }
+
+    .overlay:target {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    .popup {
+      margin: 70px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 5px;
+      width: 50%;
+      position: relative;
+      transition: all 5s ease-in-out;
+    }
+
+    .popup h2 {
+      margin-top: 0;
+      color: #333;
+      font-family: Tahoma, Arial, sans-serif;
+    }
+
+    .popup .close {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      transition: all 200ms;
+      font-size: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #333;
+    }
+
+    .popup .close:hover {
+      color: red;
+    }
+
+    .popup .content {
+      max-height: 30%;
+      overflow: auto;
+    }
+
+    @media screen and (max-width: 700px) {
+      .box {
+        width: 70%;
+      }
+
+      .popup {
+        width: 70%;
+      }
+    }
+  </style>
+</body>
+
+</html>
